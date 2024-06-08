@@ -15,6 +15,11 @@ module.exports = {
         geist: ["Geist", "sans-serif"],
         "ibm-mono": ['"IBM Plex Mono"', "monospace"],
       },
+      colors: {
+        brand: "#1866FF",
+        brand_black: "#171717",
+        gray: "#949494",
+      },
     },
   },
   plugins: [],

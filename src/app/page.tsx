@@ -1,12 +1,15 @@
-import Image from "next/image";
 
+import PromotionHeader from "../../src/components/PromotionHeader"
+import Navbar from "../../src/components/Navbar"
+import Hero from "../../src/components/Hero"
 export default function Home() {
   return (
     <>
-      <div>
-        <h1 className="font-cabinet-grotesk text-3xl">Hello, Cabinet Grotesk!</h1>
-        <p className="font-geist text-xl">This is Geist font.</p>
-        <p className="font-ibm-mono text-lg">This is IBM Plex Mono font.</p>
+      <div className="flex flex-col gap-4">
+        <PromotionHeader />
+        <Navbar />
+        <Hero />
+
       </div>
     </>);
 }
