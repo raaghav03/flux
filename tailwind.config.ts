@@ -20,6 +20,10 @@ module.exports = {
         brand_black: "#171717",
         gray: "#949494",
       },
+      boxShadow: {
+        "inner-custom-1": "inset 0px -4.2px 14px 0px rgba(199, 199, 199, 0.24)",
+        "inner-custom-2": "inset 0px -4.2px 7px 0px #0656CE",
+      },
     },
   },
   plugins: [],

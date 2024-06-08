@@ -7,7 +7,7 @@ const Navbar = () => {
     return (
         <div className='p-4 flex justify-between'>
             <Logo className="inline" />
-            <Menu />
+            <Menu className='md:hidden' />
         </div>
     )
 }
