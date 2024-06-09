@@ -4,10 +4,12 @@ import Navbar from "../../src/components/Navbar"
 import Hero from "../../src/components/Hero"
 import SecondaryButton from "../../src/components/SecondaryButton"
 import PrimaryButton from "../../src/components/PrimaryButton"
+import BentoGrid from "../../src/components/BentoGrid"
+
 export default function Home() {
   return (
     <>
-      <div className="flex flex-col gap-4">
+      <div className="flex flex-col gap-4 mb-96">
         <PromotionHeader />
         <Navbar />
         <Hero />
@@ -18,6 +20,9 @@ export default function Home() {
           </div>
           Join 100+ builders who are building with Flux-UI 🚀
         </div>
+        <BentoGrid />
+
       </div>
+
     </>);
 }
