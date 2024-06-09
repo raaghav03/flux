@@ -6,6 +6,7 @@ import PrimaryButton from "../../src/components/PrimaryButton";
 import BentoGrid from "../../src/components/BentoGrid";
 import UiComponentGrid from "../../src/components/UiComponentGrid";
 import TestimonialGrid from "../../src/components/TestimonialGrid";
+import FAQ from "../../src/components/FAQ";
 
 
 export default function Home() {
@@ -25,6 +26,7 @@ export default function Home() {
         <BentoGrid />
         <UiComponentGrid />
         <TestimonialGrid />
+        <FAQ />
       </div>
     </>
   );

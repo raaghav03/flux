@@ -11,7 +11,7 @@ interface Testimonial {
 
 const Testimonial: React.FC<Testimonial> = ({ name, designation, image, testimonial }) => {
     return (
-        <div className='border-[1px] border-neutral-200 rounded-md px-8 py-4 flex flex-col gap-6 bg-white items-start overflow-hidden'>
+        <div className='border-[1px] border-neutral-200 rounded-md p-8 flex flex-col gap-6 bg-white items-start overflow-hidden'>
             <div className='flex flex-row items-center w-full justify-between'>
                 <div>
                     <div className='text-brand_black font-cabinet-grotesk text-lg font-bold'> {name}</div>

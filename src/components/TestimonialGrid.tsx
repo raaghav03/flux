@@ -9,9 +9,9 @@ const TestimonialGrid = () => {
         <div className='px-4 flex flex-col gap-4'>
             <div className='flex flex-col gap-0'>
                 <h1 className="font-cabinet-grotesk font-bold text-lg text-brand_black">
-                    People love Flex-Ui
+                    Hundrds of people love <span className='inline text-brand'>Flex-Ui</span>
                 </h1>
-                <h1 className="font-geist  text-md text-gray">
+                <h1 className="font-geist  text-xs text-gray">
                     But don&apos;t take our word for it
                 </h1>
             </div>
