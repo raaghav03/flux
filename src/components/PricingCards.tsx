@@ -56,7 +56,7 @@ const PricingToggle: React.FC<PricingToggleProps> = ({ isAnnual, onToggle }) => 
             <div className="relative flex w-full p-1 px-2 bg-white dark:bg-slate-900 rounded-full">
                 <span className="absolute inset-0 m-1 pointer-events-none" aria-hidden="true">
                     <span
-                        className="absolute inset-0 w-1/2 bg-indigo-500 rounded-full shadow-sm shadow-indigo-950/10 transform transition-transform duration-150 ease-in-out"
+                        className="absolute inset-0 w-1/2 bg-brand rounded-full shadow-sm shadow-indigo-950/10 transform transition-transform duration-150 ease-in-out"
                         style={{ transform: `translateX(${isAnnual ? '0' : '100%'})` }}
                     />
                 </span>

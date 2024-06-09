@@ -14,12 +14,14 @@ import PricingCards from "../../src/components/PricingCards"
 export default function Home() {
   return (
     <>
-      <div className="flex flex-col gap-12  lg:gap-32">
-        <PromotionHeader />
-        <Navbar />
+      <Navbar />
+      <PromotionHeader />
+
+      <div className="flex flex-col gap-12  lg:gap-32 mt-8">
+
         <Hero />
         <div className="flex flex-col gap-2 font-geist font-medium text-xs text-gray items-center justify-center">
-          <div className="flex gap-4 px-4 items-center justify-center">
+          <div className="flex gap-4 px-4 items-center justify-center md:scale-150 md:mb-2 md:mt-4">
             <SecondaryButton />
             <PrimaryButton />
           </div>
@@ -28,9 +30,8 @@ export default function Home() {
         <BentoGrid />
         <UiComponentGrid />
         <TestimonialGrid />
-        <FAQ />
-
         <PricingCards />
+        <FAQ />
         <Footer />
       </div>
     </>
