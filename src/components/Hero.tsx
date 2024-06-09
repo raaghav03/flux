@@ -8,7 +8,7 @@ import Grid from "../../public/assets/grid.svg"
 const Hero = () => {
     return (
         <>
-            <Grid className="bg-auto" />
+
             <div className="p-4 flex  flex-col gap-8 lg:gap-20 lg:mb-8 items-center justify-center text-center  lg:px-12 ">
                 <div className="flex flex-col gap-0 items-center justify-center">
                     <Product_Hunt_Badge className="mb-4 md:scale-150" />
