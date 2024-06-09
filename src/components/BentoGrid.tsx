@@ -25,7 +25,7 @@ const BentoGrid = () => {
           image={<Bento1 />}
           theme="ZERO DEPENDANCY"
           heading="Framework Agnostic"
-          subheading="FlexUi helps speed up your development process with our pre-built UI components. Launch faster with ready-to-use, high-quality components"
+          subheading="Components built with zero dependencies so you can have the framework of your choice"
         />
         <BentoCard
           image={<Bento2 />}
@@ -38,7 +38,7 @@ const BentoGrid = () => {
           image={<Bento3 />}
           theme="BUILD FAST"
           heading="Components for Literally Everything"
-          subheading="FlexUi helps speed up your development process with our pre-built UI components. Launch faster with ready-to-use, high-quality components"
+          subheading="FluxUi helps speed up your development process with our pre-built UI components. Launch faster with ready-to-use, high-quality components"
         />
 
 
@@ -52,7 +52,7 @@ const BentoGrid = () => {
           image={<Bento5 />}
           theme="Easy Workflow"
           heading="Figma Plugin"
-          subheading=" 100+ companies ranging from early stage startups have used FluxUI, so don’t worry you are always in good company"
+          subheading=" A plugin built to drag and drop components into your figma workspace"
         />
       </div>
 

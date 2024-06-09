@@ -21,7 +21,7 @@ const Hero = () => {
                         </div>
                         <div className="">
                             <h1 className="font-geist font-medium text-xs text-gray text-wrap lg:text-xl lg:px-[20px] ">
-                                FlexUI empowers you to create stunning, high-performance UI components
+                                FluxUI empowers you to create stunning, high-performance UI components
                                 with ease. Focus on your unique features while our battle-tested
                                 components handle the rest
                             </h1>
