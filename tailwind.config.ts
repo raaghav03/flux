@@ -30,6 +30,9 @@ const config = {
         geist: ["Geist", "sans-serif"],
         "ibm-mono": ['"IBM Plex Mono"', "monospace"],
       },
+      backgroundImage: {
+        "grid-pattern": "public/assets/grid.svg",
+      },
       colors: {
         brand: "#1866FF",
         brand_black: "#171717",
