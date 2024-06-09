@@ -5,6 +5,7 @@ import Hero from "../../src/components/Hero"
 import SecondaryButton from "../../src/components/SecondaryButton"
 import PrimaryButton from "../../src/components/PrimaryButton"
 import BentoGrid from "../../src/components/BentoGrid"
+import UiComponentGrid from "../../src/components/UiComponentGrid"
 
 export default function Home() {
   return (
@@ -21,7 +22,7 @@ export default function Home() {
           Join 100+ builders who are building with Flux-UI 🚀
         </div>
         <BentoGrid />
-
+        <UiComponentGrid />
       </div>
 
     </>);
