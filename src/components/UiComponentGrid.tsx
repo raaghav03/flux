@@ -14,7 +14,7 @@ const UiComponentGrid = () => {
                 <span className="inline text-brand">1000+ components </span>for your
                 every need
             </div>
-            <div className="lg:grid lg:grid-cols-5 lg:gap-4">
+            <div className="lg:grid lg:grid-cols-5 lg:gap-4 lg:px-8 flex flex-col gap-4">
                 <UIComponent
                     img={<Comp1 />}
                     component={12}
