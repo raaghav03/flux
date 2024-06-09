@@ -5,8 +5,9 @@ import { Menu } from 'lucide-react';
 
 const Navbar = () => {
     return (
-        <div className='p-4 flex justify-between'>
+        <div className='p-4 flex justify-between w-full  '>
             <Logo className="inline" />
+
             <Menu className='md:hidden' />
         </div>
     )

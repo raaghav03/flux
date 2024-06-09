@@ -14,7 +14,7 @@ import PricingCards from "../../src/components/PricingCards"
 export default function Home() {
   return (
     <>
-      <div className="flex flex-col gap-12 mb-96">
+      <div className="flex flex-col gap-12 ">
         <PromotionHeader />
         <Navbar />
         <Hero />
