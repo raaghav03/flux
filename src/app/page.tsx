@@ -8,6 +8,7 @@ import UiComponentGrid from "../../src/components/UiComponentGrid";
 import TestimonialGrid from "../../src/components/TestimonialGrid";
 import FAQ from "../../src/components/FAQ";
 import Footer from "../../src/components/Footer"
+import PricingCards from "../../src/components/PricingCards"
 
 
 export default function Home() {
@@ -28,6 +29,8 @@ export default function Home() {
         <UiComponentGrid />
         <TestimonialGrid />
         <FAQ />
+
+        <PricingCards />
         <Footer />
       </div>
     </>
